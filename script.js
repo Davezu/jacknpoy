@@ -27,7 +27,6 @@ btns.forEach(button => {
     }); 
 });
 function getResult(user, computer) {
-    let colors;
     if (user === computer) return "Draw";
     if (
         (user === "rock" && computer === "scissors") ||
